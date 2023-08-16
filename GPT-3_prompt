@@ -1,4 +1,4 @@
-    Do you know Decision Model and Notation and can you create a DRD? \\
+    **Do you know Decision Model and Notation and can you create a DRD? \\
      Given a text description you are expected to provide a DRD in graphviz code. Examples:  \\
      Input: With the recent adoption of stricter environmental laws, the approval of infrastructure projects needs to take into account the amount of additional nitrogen pollution each project would cause in the environment. The maximum allowed pollution has been set at a maximum of 14 grams per hectare per year. Any project which would cause this bar to be exceeded can not be approved. Additionally, any infrastructure project also needs to be approved by an architect before a final approval can be given.
      
@@ -16,4 +16,4 @@
                        
     '-Output: digraph  {  "Eligibility for smallpox vaccine" [shape=box]   "Outbreak"    "Risk" [shape=box]    "Contact with similar virus"   "Labworker" "smallpox virus exposure" "Eligibility for smallpox vaccine" $\rightarrow$ "Outbreak" [dir=back] "Eligibility for smallpox vaccine" $\rightarrow$ "Risk" [dir=back] "Risk" $\rightarrow$ "Contact with similar virus" [dir=back] "Risk" $\rightarrow$ "Labworker" [dir=back] "Risk" $\rightarrow$ "smallpox virus exposure" [dir=back]} \\
     
-    Only provide the expected Decision Requirements Diagram in formatted graphviz code with inputs as ovals and decision as rectangles and arrows going bottom-up from inputs to decisions as shown in the examples. Do not write anything else. Analyze the following text: \textbf{Insert text}.
+    Only provide the expected Decision Requirements Diagram in formatted graphviz code with inputs as ovals and decision as rectangles and arrows going bottom-up from inputs to decisions as shown in the examples. Do not write anything else. Analyze the following text: \textbf{Insert text}.**
